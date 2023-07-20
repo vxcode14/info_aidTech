@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    height: inherit;
+    width: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-main{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.result{
+    width: 25%;
+}
+
+.form{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+}
+
+#type{
+    display: flex;
+    justify-content: center;
+}
+
+#convert{
+    display: flex;
+    justify-content: center;
+}
+
